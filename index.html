@@ -22,34 +22,22 @@
     <a-entity environment="preset: threetowers; dressingAmount:11; dressingColor: #ff0000;"></a-entity>
     <!--whare / house or museum -->
     <a-cylinder id="floor" position="0 0 0" radius="7.5" color="gray" height="0.1"></a-cylinder>
-    <a-box id="Wall 1 / Taha Hinengaro" position="0  1.473  4.907" rotation="0  0  0" scale="10  3 0.2"
-      src="images/istockphoto-1152859422-612x612.jpg"></a-box>
-    <a-box id="Wall 2 / Taha Tinana" position="0  1.473  -4.907" rotation="0  0  0" scale="10  3  0.2"
-      src="images/istockphoto-1152859422-612x612.jpg"></a-box>
-    <a-box id="Wall 3 / Taha Whānau" position="5.049  1.454  -0.008" rotation="0  -90  0" scale="10  3  0.2"
-      src="images/istockphoto-1152859422-612x612.jpg"></a-box>
-    <a-box id="Wall 4 / Taha Wairua" position="-5.049  1.454  -0.008" rotation="0  -90  0" scale="10  3  0.2"
-      src="images/istockphoto-1152859422-612x612.jpg"></a-box>
-    <a-cylinder id="triangle_front" segments-radial="3" position="0  3.874 4.907" rotation="-90  0  0"
-      scale="5.774  0.2  1.8" color="gray"></a-cylinder>
-    <a-cylinder id="triangle_front" segments-radial="3" position="0  3.874 -4.907" rotation="-90  0  0"
-      scale="5.774  0.2  1.8" color="gray"></a-cylinder>
-    <a-box id="roof_right" position="2.580  4.328  0" rotation="28.433  90  0" scale="10.931 0.20  6.110"
-      color="gray"></a-box>
-    <a-box id="roof_right" position="-2.599  4.3321  -0.017" rotation="28.433  -90  0" scale="10.931 0.20  6.130"
-      color="gray"></a-box>
+    <a-box id="Wall 1 / Taha Hinengaro" position="0  1.473  4.907" rotation="0  0  0" scale="10  3 0.2" src="images/istockphoto-1152859422-612x612.jpg"></a-box>
+    <a-box id="Wall 2 / Taha Tinana" position="0  1.473  -4.907" rotation="0  0  0" scale="10  3  0.2" src="images/istockphoto-1152859422-612x612.jpg"></a-box>
+    <a-box id="Wall 3 / Taha Whānau" position="5.049  1.454  -0.008" rotation="0  -90  0" scale="10  3  0.2" src="images/istockphoto-1152859422-612x612.jpg"></a-box>
+    <a-box id="Wall 4 / Taha Wairua" position="-5.049  1.454  -0.008" rotation="0  -90  0" scale="10  3  0.2" src="images/istockphoto-1152859422-612x612.jpg"></a-box>
+    <a-cylinder id="triangle_front" segments-radial="3" position="0  3.874 4.907" rotation="-90  0  0" scale="5.774  0.2  1.8" color="gray"></a-cylinder>
+    <a-cylinder id="triangle_front" segments-radial="3" position="0  3.874 -4.907" rotation="-90  0  0"scale="5.774  0.2  1.8" color="gray"></a-cylinder>
+    <a-box id="roof_right" position="2.580  4.328  0" rotation="28.433  90  0" scale="10.931 0.20  6.110" color="gray"></a-box>
+    <a-box id="roof_right" position="-2.599  4.3321  -0.017" rotation="28.433  -90  0" scale="10.931 0.20  6.130" color="gray"></a-box>
 
     <!-- srt of art -->
-    <a-plane id="art1" src="images/picture_1.jpg" scale="2 2 0.05" rotation="0 0 0"
-      position="-3.500 1.934 -4.792"></a-plane>
-    <a-plane id="art1" src="images/picture2.jpg" scale="2 2 0.05" rotation="0 0 0"
-      position="3.115 1.944 -4.785"></a-plane>
-    <a-plane id="art1" src="images/tannk_picture.png" scale="2 2 0.05" rotation="0 0 0"
-      position="-0.162 1.944 -4.785"></a-plane>
+    <a-plane id="art1" src="images/picture_1.jpg" scale="2 2 0.05" rotation="0 0 0"position="-3.500 1.934 -4.792"></a-plane>
+    <a-plane id="art1" src="images/picture2.jpg" scale="2 2 0.05" rotation="0 0 0"position="3.115 1.944 -4.785"></a-plane>
+    <a-plane id="art1" src="images/tannk_picture.png" scale="2 2 0.05" rotation="0 0 0"position="-0.162 1.944 -4.785"></a-plane>
 
     <!-- srt of 3d model -->
-    <a-obj-model id="3dModel1" src="images/tanky_picture.obj" mtl="images/tamk_picture.mtl" position="3.338 0.062 2.404"
-      rotation="-90.000 -161.511 0.000" scale="0.025 0.025 0.025"></a-obj-model>
+    <a-obj-model id="3dModel1" src="images/tanky_picture.obj" mtl="images/tamk_picture.mtl" position="3.338 0.062 2.404" rotation="-90.000 -161.511 0.000" scale="0.025 0.025 0.025"></a-obj-model>
 
     <!-- Srt Tv -->
    <a-entity>
@@ -74,7 +62,7 @@
 
     <a-entity cursor="rayOrigin: mouse"></a-entity>
 
-    movement
+  
     <!-- Movement-->
 
       <!-- Camera + controllers rig -->
@@ -96,6 +84,7 @@
 
     
   </a-scene>
+  <script src="https://gftruj.github.io/webzamples/aframe/controls/oculus-thumbstick-controls.js"></script>
 </body>
 
 </html>
